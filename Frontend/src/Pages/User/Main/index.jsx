@@ -4,14 +4,16 @@ import Feature from '../../../Components/User/Main/Feature'
 import SecondFeature from '../../../Components/User/Main/SecondFeature'
 import Blog from '../../../Components/User/Main/Blog'
 function Main() {
-  return (
-    <div>
-      <Hero/>
-      <Feature/>
-      <SecondFeature/>
-      <Blog/>
-    </div>
-  )
+    return (
+        <div>
+            <main>
+                <Hero />
+                <Feature />
+                <SecondFeature />
+                <Blog />
+            </main>
+        </div>
+    )
 }
 
 export default Main

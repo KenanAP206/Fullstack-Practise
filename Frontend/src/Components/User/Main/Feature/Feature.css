@@ -1,0 +1,39 @@
+#request{
+    padding: 50px 15%;
+    background-color: #F9F9FF;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    .req-left{
+        text-align: end;
+        font-weight: 100;
+        font-size: 23px;
+        width: 250px;
+        span{
+            font-weight: 700;
+        }
+    }
+    .req-mid{
+        font-size: 13px;
+        width: 400px;
+        font-weight: 300;
+        color: #979797;
+    }
+    button{
+        padding: 13px 26px;
+        cursor: pointer;
+        background-color: #F6214B;
+        color: white;
+        border: none;
+        outline: none;
+        transition: all 0.3s ease 0s;
+
+        &:hover{
+            background-color: transparent;
+            border: 1px solid #F6214B;
+            color: #F6214B;
+        }
+    }
+}

@@ -9,4 +9,12 @@
 }
 
 
+::selection {
+  background-color: #f6214b;
+  color: #ffffff;          
+}
 
+
+main{
+  margin-top: 100px;
+}
