@@ -36,7 +36,7 @@
       background-color: #F6214B;
       color: white;
       transition: 0.3s;
-
+      margin-right: 10px;
       &:hover{
         background-color: black;
         color: #F6214B;
