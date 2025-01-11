@@ -1,0 +1,37 @@
+#secondfeature{
+    margin: 70px auto;
+    width: 70%;
+    font-family: "Poppins", sans-serif;
+    .secfeat-cards{
+        margin: 60px 0;
+        display: grid;
+        gap: 60px;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+
+        .sf-card{
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 20px;
+            .sf-c-up{
+                transition: 0.3s;
+       
+                display: flex;
+                gap: 20px;
+            }
+
+            p{
+                font-weight: 300;
+                color: #8e8e8e;
+                font-size: 13px;
+            }
+
+            &:hover{
+                .sf-c-up{
+                    color: #f6214b;
+                }
+
+            }
+        }
+    }
+}

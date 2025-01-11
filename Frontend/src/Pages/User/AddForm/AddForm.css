@@ -1,0 +1,49 @@
+.form-container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form div {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.buttons {
+  flex-direction: row !important;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+button[type="button"] {
+  background-color: #6c757d;
+}

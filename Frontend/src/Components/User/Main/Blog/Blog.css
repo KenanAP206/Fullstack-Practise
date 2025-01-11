@@ -1,0 +1,50 @@
+#blog{
+    margin: 70px auto;
+    width: 70%;
+    font-family: "Poppins", sans-serif;
+    .blog-cards{
+        margin: 70px 0;
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        .blog-card{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            img{
+                width: 100%;
+            }
+
+            .b-card-spans{
+                display: flex;
+                gap: 3px;
+                span{
+                    cursor: pointer;
+                    font-size: 11px;
+                    color: white;
+                    padding: 5px 10px;
+                    background-color: #F6214B;
+                    border: 1px solid transparent;
+                    transition: 0.3s ease;
+                    &:hover{
+                        color: black;
+                        background-color: white;
+                        border: 1px solid rgba(0, 0, 0, 0.074);
+                    }
+                }
+            }
+            h5{
+                font-weight: 600;
+                font-size: 16px;
+            }
+            p{
+                font-size: 13px;
+                font-weight: 300;
+                color: #818181;
+            }
+            h6{
+                font-weight: 400;
+            }
+        }
+    }
+}

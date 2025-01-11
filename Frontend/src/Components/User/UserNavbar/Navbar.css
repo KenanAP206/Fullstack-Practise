@@ -63,6 +63,42 @@ nav{
                 color: black;
             }
         }
+
+        .bar{
+            cursor: pointer;
+            display: none;
+        }
     }
 }
 
+@media (max-width:900px) {
+    .navbar-up{
+        .n-up-l{
+            margin: 10px 0;
+            width: 20%;
+            font-size: 12px !important;
+        }
+
+        .n-up-mid{
+            margin: 10px 0;
+            img{
+                width: 120px;
+            }
+        }
+        .n-up-r{
+            align-items: center;
+            gap: 15px;
+            display: flex;
+            font-size: 11px !important;
+            font-weight: 500;
+        }
+    }
+
+    ul{
+        display: none !important;
+    }
+    .bar{
+        font-size: 20px;
+        display: block !important;
+    }
+}

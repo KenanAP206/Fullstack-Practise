@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import { LuPhone } from "react-icons/lu";
 import { NavLink } from 'react-router-dom';
+import { FaBars } from "react-icons/fa";
 function index() {
   return (
     <div>
@@ -30,10 +31,10 @@ function index() {
             <NavLink to='/' style={({ isActive }) =>isActive ? { color: "#f6214b"} : { color: "black" }}>HOME</NavLink>
           </li>
           <li>
-            <NavLink to='/addform' style={({ isActive }) =>isActive ? { color: "#f6214b"} : { color: "black" }}>Add Form</NavLink>
+            <NavLink to='/addform' style={({ isActive }) =>isActive ? { color: "#f6214b"} : { color: "black" }}>ADD FORM</NavLink>
           </li>
           <li>
-            <NavLink to='/wishlist' style={({ isActive }) =>isActive ? { color: "#f6214b"} : { color: "black" }}>Wishlist</NavLink>
+            <NavLink to='/wishlist' style={({ isActive }) =>isActive ? { color: "#f6214b"} : { color: "black" }}>WISHLIST</NavLink>
           </li>
           <li>
             <NavLink>COURSE</NavLink>
@@ -51,6 +52,7 @@ function index() {
             <NavLink>ELEMENTS</NavLink>
           </li>
         </ul>
+        <FaBars className='bar' />
         </div>
       </nav>
     </div>

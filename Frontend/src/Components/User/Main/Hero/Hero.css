@@ -7,7 +7,7 @@
     color: #ffffff;
     img{
         right:0px;
-        bottom: 0;
+        bottom: 0px;
         height: 100%;
         position: absolute;
         object-fit: contain;
@@ -30,8 +30,10 @@
         h2{
             font-size: 50px;
             width: 60%
+
         }
         button{
+            color: #F6214B;
             width: max-content;
             font-size: 14px;
             font-weight: 600;
@@ -48,5 +50,53 @@
             }
         }
 
+    }
+}
+
+
+@media (max-width: 500px) {
+    .hero-txt{
+        p{
+            font-size: 8px !important;
+        }
+
+        h2{
+            font-size: 20px !important;
+        }
+
+       
+    }       
+    
+    #hero{
+        min-height: 30vh;
+        max-height: 30vh;
+        img{
+            bottom: -230px !important;
+            width: 300px !important;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+        
+    body{
+        #hero{
+            min-height: 56vh;
+            img{
+                width: 800px ;
+            }
+    
+            .hero-txt{
+                p{
+                    font-size: 12px ;
+                }
+        
+                h2{
+                    font-size: 30px ;
+                }
+        
+               
+            }   
+        }
     }
 }
